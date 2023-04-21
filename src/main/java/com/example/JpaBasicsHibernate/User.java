@@ -12,10 +12,10 @@ import java.lang.*;
 public class User { // "User error" show that it's Need to make Primary key in table
     @Id       // this tell springBoot framework this is  field tell become primary key
     private int userId;
-
- private  String name;
- private  int age;
- private String mobile;
+  //@Column()
+    private  String name;
+    private  int age;
+    private String mobile;
  // Good practices to make 2 Constructors
     //1) No Parameter ,2) All parameter
 
